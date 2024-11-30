@@ -28,9 +28,10 @@ class LargeContainer extends StatelessWidget {
             ),
             Text(
               description,
-              style: const TextStyle(
+              style:TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w400,
+                  color: const Color(0xff3B3636).withOpacity(0.84)
               ),
             ),
           ],
